@@ -1,0 +1,30 @@
+@import "../theme/T_simple.css";
+h1{
+    margin: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+form{
+    display: flex;
+    height: 70vh;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+input,textarea,select{
+    margin-bottom: 20px ;
+    padding: 5px;
+}
+select{
+    padding: 5px;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
